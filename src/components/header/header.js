@@ -12,7 +12,6 @@ export default class Header extends Component {
             <li><a className="smoothscroll" href="#about">Profile</a></li>
             <li><a className="smoothscroll" href="#resume">Education</a></li>
             <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
-            <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
           </ul> {/* end #nav */}
         </nav> {/* end #nav-wrap */}
@@ -23,10 +22,10 @@ export default class Header extends Component {
              and learn more <a className="smoothscroll" href="#about">about me</a>.</h3>
             <hr />
             <ul className="social">
-              <li><a href="#"><i className="fa fa-linkedin" /></a></li>
-              <li><a href="#"><i className="fa fa-github" /></a></li>
-              <li><a href="#"><i className="fa fa-instagram" /></a></li>
-              <li><a href="#"><i className="fa fa-facebook" /></a></li>
+              <li><a href="https://www.linkedin.com/in/owaisbadat/"><i className="fab fa-linkedin" /></a></li>
+              <li><a href="https://github.com/OwaisBadat"><i className="fab fa-github" /></a></li>
+              <li><a href="https://www.instagram.com/owaisbadat/"><i className="fab fa-instagram" /></a></li>
+              <li><a href="https://www.facebook.com/owais.badat.7"><i className="fab fa-facebook" /></a></li>
 
 
 

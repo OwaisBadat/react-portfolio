@@ -26,11 +26,11 @@ export default class Works extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-02" title>
-                    <img alt src="images/portfolio/console.jpg" />
+                    <img alt src="images/portfolio/nomads.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Console</h5>
-                        <p>Web Development</p>
+                        <h5>Digital Nomads</h5><br/>
+                        <p><i className="fa fa-code" /><br/>HTML, JavaScript, BootStrap, CSS, AWS, API</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -82,14 +82,14 @@ export default class Works extends Component {
             </div>
           </div>{/* modal-01 End */}
           <div id="modal-02" className="popup-modal mfp-hide">
-            <img className="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt />
+            <img className="scale-with-grid" src="images/portfolio/modals/m-nomads.png" alt />
             <div className="description-box">
-              <h4>Console</h4>
-              <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-              <span className="categories"><i className="fa fa-tag" />Branding, Web Development</span>
+              <h4>Digital Nomads</h4>
+              <p>We allow the user to input any destination world wide and see a variety of factors of life within that city. From weather, walkability score, highly rated restaurants, shared workspace options, living spaces, and living standard statistics (health, crime, affordability).</p>
+              <span className="categories"><i className="fa fa-code" />HTML, CSS, Bootstrap, API, jQuery, Express</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Details</a>
+              <a href="http://www.behance.net">Website</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-02 End */}
