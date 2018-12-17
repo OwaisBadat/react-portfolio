@@ -292,6 +292,8 @@ ul#nav li.current a { color: #F06000; }
 div.imggrid {
 	width: 100%;
 	max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.imggrid div.imgblock {
@@ -848,7 +850,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 .contactTitle {
-  color: white;
+  color: #EBEEEE;
 }
 #contact {
    background: #191919;
@@ -877,7 +879,7 @@ call-to-action .button {
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #ebeeee;
+   color: Tomato;
 }
 
 #contact h4 {

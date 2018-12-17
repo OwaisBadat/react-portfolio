@@ -57,7 +57,7 @@ export default class Education extends Component {
   {/* Skills
 ----------------------------------------------- */}
   <div className="row skill">
-      <h1><span>Skills</span></h1>
+      <h1 style={{paddingLeft: "20px"}}><span>Skills</span></h1>
       <div className="imggrid">
         <div className="imgblock">
           <img className="rig-img" src={HTML5} />
