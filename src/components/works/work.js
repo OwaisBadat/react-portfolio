@@ -61,7 +61,7 @@ export default class Works extends Component {
               <span className="categories"><i className="fa fa-code" />HTML, CSS, Bootstrap, API, jQuery, Express</span>
             </div>
             <div className="link-box">
-              <a href="http://www.behance.net">Website</a>
+              <a href="">Website</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-02 End */}
