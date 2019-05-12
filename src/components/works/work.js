@@ -17,6 +17,7 @@ export default class Works extends Component {
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Cellar</h5>
+                        <p><i className="fa fa-code" /><br/>HTML, JavaScript, BootStrap, CSS, AWS, API</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -31,6 +32,20 @@ export default class Works extends Component {
                       <div className="portfolio-item-meta">
                         <h5>Digital Nomads</h5><br/>
                         <p><i className="fa fa-code" /><br/>HTML, JavaScript, BootStrap, CSS, AWS, API</p>
+                      </div>
+                    </div>
+                    <div className="link-icon"><i className="icon-plus" /></div>
+                  </a>
+                </div>
+              </div> {/* item end */}
+              <div className="columns portfolio-item">
+                <div className="item-wrap">
+                  <a href="#modal-02" title>
+                    <img alt src="images/portfolio/funko.png" />
+                    <div className="overlay">
+                      <div className="portfolio-item-meta">
+                        <h5>Digital Nomads</h5><br/>
+                        <p><i className="fa fa-code" /><br/>HTML, React, Redux, JavaScript, BootStrap, CSS, AWS, API</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -61,7 +76,7 @@ export default class Works extends Component {
               <span className="categories"><i className="fa fa-code" />HTML, CSS, Bootstrap, API, jQuery, Express</span>
             </div>
             <div className="link-box">
-              <a href="">Website</a>
+              <a href="http://digitalnomads.surge.sh/">Website</a>
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-02 End */}
