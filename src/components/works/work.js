@@ -40,12 +40,12 @@ export default class Works extends Component {
               </div> {/* item end */}
               <div className="columns portfolio-item">
                 <div className="item-wrap">
-                  <a href="#modal-02" title>
+                  <a href="#modal-03" title>
                     <img alt src="images/portfolio/funko.png" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
-                        <h5>Digital Nomads</h5><br/>
-                        <p><i className="fa fa-code" /><br/>HTML, React, Redux, JavaScript, BootStrap, CSS, AWS, API</p>
+                        <h5>Funko Pop Ecommerce Site</h5><br/>
+                        <p><i className="fa fa-code" /><br/>HTML, React, Redux, JavaScript, BootStrap, CSS, API</p>
                       </div>
                     </div>
                     <div className="link-icon"><i className="icon-plus" /></div>
@@ -80,6 +80,18 @@ export default class Works extends Component {
               <a className="popup-modal-dismiss">Close</a>
             </div>
           </div>{/* modal-02 End */}
+          <div id="modal-03" className="popup-modal mfp-hide">
+            <img className="scale-with-grid" src="images/portfolio/modals/m-funko.PNG" alt />
+            <div className="description-box">
+              <h4>Funko Pop Ecommerce Site</h4>
+              <p>Ecommerce site built using reusable react components and redux to manage the state of the customers shopping cart.</p>
+              <span className="categories"><i className="fa fa-code" />HTML, React, Redux, JavaScript, BootStrap, CSS, API</span>
+            </div>
+            <div className="link-box">
+              <a href="">Website</a>
+              <a className="popup-modal-dismiss">Close</a>
+            </div>
+          </div>{/* modal-03 End */}
         </div> {/* row End */}
       </section>
     );
