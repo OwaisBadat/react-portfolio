@@ -41,7 +41,7 @@ export default class Works extends Component {
               <div className="columns portfolio-item">
                 <div className="item-wrap">
                   <a href="#modal-03" title>
-                    <img alt src="images/portfolio/funko.png" />
+                    <img alt src="images/portfolio/funko.jpg" />
                     <div className="overlay">
                       <div className="portfolio-item-meta">
                         <h5>Funko Pop Ecommerce Site</h5><br/>
